@@ -1,0 +1,19 @@
+{
+  "name": "docs-desktop",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "tauri dev",
+    "build": "tauri build",
+    "tauri": "tauri",
+    "icon": "tauri icon ./icon.png"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2.9.0",
+    "@tauri-apps/plugin-opener": "^2.5.2"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.9.4"
+  }
+}
